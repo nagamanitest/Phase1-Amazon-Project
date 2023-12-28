@@ -1,6 +1,6 @@
 package com.simplilarn.selenium.amazonapp;
 
-import java.time.Duration;
+
 import java.util.ArrayList;
 
 import org.openqa.selenium.By;
@@ -38,6 +38,8 @@ public static void main(String[] args)throws InterruptedException  {
 
 	Thread.sleep(1500);
 	driver.findElement(By.id("add-to-cart-button")).click();
+	
+	driver.close();
 	
 	
 		
